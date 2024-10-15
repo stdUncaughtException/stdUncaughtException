@@ -1,8 +1,8 @@
 ```java
-package pkg1.pkg7.acceso.a.datos;
+package welcome.to.my.profile;
 
 /**
- *
+ * ASCII TEXT
  * @author ____________________
  */
 public class ArteASCII {
