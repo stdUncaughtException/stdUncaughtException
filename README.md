@@ -1,16 +1,28 @@
-## Hi there 👋
+```java
+package pkg1.pkg7.acceso.a.datos;
 
-<!--
-**stdUncaughtException/stdUncaughtException** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+/**
+ *
+ * @author ____________________
+ */
+public class ArteASCII {
+    public static void main(String[] args) {
 
-Here are some ideas to get you started:
+        String[] asciiArt = {
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+            " ▄▀▀▄    ▄▀▀▄  ▄▀▀█▄▄▄▄  ▄▀▀▀▀▄     ▄▀▄▄▄▄   ▄▀▀▀▀▄   ▄▀▀▄ ▄▀▄  ▄▀▀█▄▄▄▄ ",
+            "█   █    ▐  █ ▐  ▄▀   ▐ █    █     █ █    ▌ █      █ █  █ ▀  █ ▐  ▄▀   ▐ ",
+            "▐  █        █   █▄▄▄▄▄  ▐    █     ▐ █      █      █ ▐  █    █   █▄▄▄▄▄  ",
+            "  █   ▄    █    █    ▌      █        █      ▀▄    ▄▀   █    █    █    ▌  ",
+            "   ▀▄▀ ▀▄ ▄▀   ▄▀▄▄▄▄     ▄▀▄▄▄▄▄▄▀ ▄▀▄▄▄▄▀   ▀▀▀▀   ▄▀   ▄▀    ▄▀▄▄▄▄   ",
+            "         ▀     █    ▐     █        █     ▐           █    █     █    ▐   ",
+            "               ▐          ▐        ▐                 ▐    ▐     ▐        "
+        };
+
+        for (String line : asciiArt) {
+            System.out.println(line);
+        }
+    }
+}
+
+```
