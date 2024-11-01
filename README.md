@@ -1,3 +1,4 @@
+![alt text](1726316930408105.jpg)
 ```java
 package welcome.to.my.profile;
 
